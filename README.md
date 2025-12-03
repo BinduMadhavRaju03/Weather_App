@@ -56,8 +56,14 @@ Weather: clear sky
 Humidity: 70%
 ----------------------------
 🌈 Sample Output
+Here are some sample screenshots of the app in action:
+![Weather App Screenshot 1](images/screenshot1.png)
+![Weather App Screenshot 2](images/screenshot2.png)
+![Weather App Screenshot 3](images/screenshot3.png)
 
-(Replace screenshot.png with your actual app screenshot)
+
+
+Make sure the images are inside a folder named images in your project folder.
 
 🔑 API Key
 Sign up at OpenWeather
@@ -76,13 +82,16 @@ Clean CLI interface shows attention to user experience
 Can be easily extended into GUI or Web App
 
 📂 Folder Structure
-cpp
+markdown
 Copy code
 weather-app/
 ├── weather.py
 ├── README.md
 ├── requirements.txt
-└── screenshot.png (optional)
+└── images/
+    ├── screenshot1.png
+    ├── screenshot2.png
+    └── screenshot3.png
 📝 License
 MIT License © Madhav
 
@@ -91,14 +100,14 @@ Copy code
 
 ---
 
-# ✅ **Steps to Apply This README.md**
+# ✅ **Step to Apply**
 
-1. Create a file in your project folder called `README.md`.  
-2. Copy all the text above and paste it into the file.  
-3. Add your screenshot to the folder and name it `screenshot.png` (or update the filename in the README).  
-4. Open terminal in the folder:
+1. Create a folder called `images` inside your `weather-app` folder.  
+2. Move your **3 screenshots** inside this `images` folder.  
+3. Replace the names in the README if your screenshots have different names.  
+4. In terminal, run:
 
 ```bash
-git add README.md screenshot.png
-git commit -m "Add polished README with screenshot"
+git add README.md images/*
+git commit -m "Add polished README with 3 screenshots"
 git push origin main
