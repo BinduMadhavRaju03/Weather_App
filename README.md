@@ -1,6 +1,6 @@
 # 🌦 Weather App (Python CLI)
 
-A simple and clean **Python command-line weather application** that shows **real-time weather information** for any city using the **OpenWeather API**.  
+A simple and clean **Python command-line weather application** that shows **real-time weather information** for any city using the **OpenWeather API**.
 
 ---
 
@@ -16,11 +16,11 @@ A simple and clean **Python command-line weather application** that shows **real
 
 ## 🧰 Tech & Concepts Used
 
-- **Python**  
-- **Requests library** (for API calls)  
-- **JSON parsing**  
-- **Command-line interface (CLI)**  
-- **API integration**  
+- Python  
+- Requests library (for API calls)  
+- JSON parsing  
+- Command-line interface (CLI)  
+- API integration  
 
 ---
 
@@ -55,10 +55,12 @@ Temperature: 32°C
 Weather: clear sky
 Humidity: 70%
 ----------------------------
-🌈 Sample Output
+## 🌈 Sample Output
+
 Here are some sample screenshots of the app in action:
-![Weather App Screenshot 1](images/screenshot1.png)
-![Weather App Screenshot 2](images/screenshot2.png)
+
+![Weather App Screenshot 1](images/screenshot1.png)  
+![Weather App Screenshot 2](images/screenshot2.png)  
 ![Weather App Screenshot 3](images/screenshot3.png)
 
 
@@ -100,14 +102,12 @@ Copy code
 
 ---
 
-# ✅ **Step to Apply**
+# ✅ **Important Fixes**
 
-1. Create a folder called `images` inside your `weather-app` folder.  
-2. Move your **3 screenshots** inside this `images` folder.  
-3. Replace the names in the README if your screenshots have different names.  
-4. In terminal, run:
+1. **Added proper line breaks** (`---` between sections) so GitHub renders formatting correctly.  
+2. **Double spaces at line ends** after image lines:  
 
-```bash
-git add README.md images/*
-git commit -m "Add polished README with 3 screenshots"
-git push origin main
+```markdown
+![Weather App Screenshot 1](images/screenshot1.png)  
+This ensures the images appear on separate lines.
+3. Used backticks properly for code blocks (```bash, ```) so terminal commands and outputs render correctly.
