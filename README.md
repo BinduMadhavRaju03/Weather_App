@@ -57,7 +57,7 @@ Humidity: 70%
 ----------------------------
 🌈 Sample Output
 
-(Replace screenshot.png with your own screenshot of the app running)
+(Replace screenshot.png with your actual app screenshot)
 
 🔑 API Key
 Sign up at OpenWeather
@@ -91,16 +91,12 @@ Copy code
 
 ---
 
-# ✅ **Steps to Apply README.md to Your GitHub Repo**
+# ✅ **Steps to Apply This README.md**
 
-### **Step 1 — Add README.md to your repo**
-1. Save the above text as **README.md** in your local `weather-app` folder
-2. If you want to add screenshot, save it as `screenshot.png` in the same folder
-
----
-
-### **Step 2 — Commit changes and push to GitHub**
-Open terminal in the `weather-app` folder and run:
+1. Create a file in your project folder called `README.md`.  
+2. Copy all the text above and paste it into the file.  
+3. Add your screenshot to the folder and name it `screenshot.png` (or update the filename in the README).  
+4. Open terminal in the folder:
 
 ```bash
 git add README.md screenshot.png
