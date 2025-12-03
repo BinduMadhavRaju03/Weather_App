@@ -58,11 +58,9 @@ Humidity: 70%
 ## 🌈 Sample Output
 
 Here are some sample screenshots of the app in action:
-
-![Weather App Screenshot 1](images/screenshot1.png)  
-![Weather App Screenshot 2](images/screenshot2.png)  
-![Weather App Screenshot 3](images/screenshot3.png)
-
+images/screenshot1.png
+images/screenshot2.png
+images/screenshot3.png
 
 
 Make sure the images are inside a folder named images in your project folder.
